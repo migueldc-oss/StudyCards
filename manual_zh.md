@@ -22,8 +22,8 @@
 
 欢迎使用 **StudyCards** —— 一款功能强大且简洁优雅的闪卡应用，适用于 iOS 和 macOS。创建、管理和学习您的闪卡，支持 LaTeX 公式、图片以及无缝的导入/导出功能。
 
-![StudyCards — iOS](screenshots/ios/main.png)
-![StudyCards — macOS](screenshots/macos/main.png)
+<img src="screenshots/ios/main.png" alt="StudyCards — iOS" width="500">
+<img src="screenshots/macos/main.png" alt="StudyCards — macOS" width="500">
 
 **主要功能：**
 
@@ -59,9 +59,9 @@
 4. 可选择添加描述以标识闪卡组的内容。
 5. 点击 **保存** 确认。
 
-![创建闪卡组](screenshots/ios/create_group.png)
+<img src="screenshots/ios/create_group.png" alt="创建闪卡组" width="500">
 
-![创建闪卡组 - macOS](screenshots/macos/create_group.png)
+<img src="screenshots/macos/create_group.png" alt="创建闪卡组 - macOS" width="500">
 
 **组织闪卡组的建议：**
 
@@ -100,9 +100,9 @@
 6. 可选择使用 `$...$`（行内）或 `$$...$$`（块级）添加 **LaTeX 公式**。
 7. 点击 **保存**。
 
-![创建闪卡](screenshots/ios/create_card.png)
+<img src="screenshots/ios/create_card.png" alt="创建闪卡" width="500">
 
-![创建闪卡 - macOS](screenshots/macos/create_card.png)
+<img src="screenshots/macos/create_card.png" alt="创建闪卡 - macOS" width="500">
 
 ### 2.4 添加 LaTeX 公式
 
@@ -131,9 +131,9 @@ StudyCards 通过 MathJax 支持 LaTeX 渲染，用于数学和科学符号。
 2. 选择拍摄新照片或从相册中选择。
 3. 图片将附加到闪卡上。
 
-![添加图片](screenshots/ios/add_image.png)
+<img src="screenshots/ios/add_image.png" alt="添加图片" width="500">
 
-![添加图片 - macOS](screenshots/macos/add_image.png)
+<img src="screenshots/macos/add_image.png" alt="添加图片 - macOS" width="500">
 
 > **注意：** 图片会自动调整大小，最大为 1024 像素，以优化存储空间。导出为 JSON 时，图片以 base64 格式包含在内。
 
@@ -147,9 +147,9 @@ StudyCards 通过 MathJax 支持 LaTeX 渲染，用于数学和科学符号。
 2. 将出现一个红色的 **删除** 按钮。
 3. 点击 **删除** 确认。
 
-![滑动删除](screenshots/ios/swipe_delete.png)
+<img src="screenshots/ios/swipe_delete.png" alt="滑动删除" width="500">
 
-![滑动删除 - macOS](screenshots/macos/swipe_delete.png)
+<img src="screenshots/macos/swipe_delete.png" alt="滑动删除 - macOS" width="500">
 
 > **警告：** 删除操作是永久的。如无备份，请在删除前先导出闪卡。
 
@@ -223,9 +223,9 @@ StudyCards 通过 MathJax 支持 LaTeX 渲染，用于数学和科学符号。
 2. 查找并选择要学习的闪卡组。
 3. 第一张闪卡将显示在屏幕上。
 
-![开始学习](screenshots/ios/start_study.png)
+<img src="screenshots/ios/start_study.png" alt="开始学习" width="500">
 
-![开始学习 - macOS](screenshots/macos/start_study.png)
+<img src="screenshots/macos/start_study.png" alt="开始学习 - macOS" width="500">
 
 ### 4.2 在卡片间导航
 
@@ -251,9 +251,9 @@ StudyCards 通过 MathJax 支持 LaTeX 渲染，用于数学和科学符号。
 | **2** | 评价为不确定 |
 | **3** | 评价为不会 |
 
-![学习模式](screenshots/ios/study_session.png)
+<img src="screenshots/ios/study_session.png" alt="学习模式" width="500">
 
-![学习模式 - macOS](screenshots/macos/study_session.png)
+<img src="screenshots/macos/study_session.png" alt="学习模式 - macOS" width="500">
 
 ### 4.3 完成学习会话
 
@@ -263,9 +263,9 @@ StudyCards 通过 MathJax 支持 LaTeX 渲染，用于数学和科学符号。
 2. 您将看到有多少卡片被评为 *简单*、*不确定* 和 *不会*。
 3. 点击 **再次学习** 重复学习，或点击 **返回闪卡组** 退出。
 
-![学习摘要](screenshots/ios/study_summary.png)
+<img src="screenshots/ios/study_summary.png" alt="学习摘要" width="500">
 
-![学习摘要 - macOS](screenshots/macos/study_summary.png)
+<img src="screenshots/macos/study_summary.png" alt="学习摘要 - macOS" width="500">
 
 ---
 
@@ -284,9 +284,9 @@ StudyCards 允许您通过 CSV 和 JSON 文件在设备间传输闪卡或创建�
    - **JSON：** 完整格式。包含文本、LaTeX 公式和 base64 图片。
 4. 选择保存文件的位置（文件、iCloud 云盘等）。
 
-![导出](screenshots/ios/export.png)
+<img src="screenshots/ios/export.png" alt="导出" width="500">
 
-![导出 - macOS](screenshots/macos/export.png)
+<img src="screenshots/macos/export.png" alt="导出 - macOS" width="500">
 
 ### 5.2 JSON 文件结构
 
@@ -330,9 +330,9 @@ front,back,frontLatex,backLatex,difficulty,frontImage,backImage
 2. 从设备中选择 CSV 或 JSON 文件。
 3. StudyCards 将把闪卡导入到当前闪卡组中。
 
-![导入](screenshots/ios/import.png)
+<img src="screenshots/ios/import.png" alt="导入" width="500">
 
-![导入 - macOS](screenshots/macos/import.png)
+<img src="screenshots/macos/import.png" alt="导入 - macOS" width="500">
 
 > **注意：** 如果导入包含 base64 图片的 JSON 文件，图片将正确显示在闪卡中。
 
@@ -363,9 +363,9 @@ StudyCards 使您能够轻松地与他人分享闪卡。
    - **信息** —— 通过 iMessage 发送。
    - **其他应用** —— 任何接受文件附件的应用。
 
-![分享](screenshots/ios/share.png)
+<img src="screenshots/ios/share.png" alt="分享" width="500">
 
-![分享 - macOS](screenshots/macos/share.png)
+<img src="screenshots/macos/share.png" alt="分享 - macOS" width="500">
 
 ### 6.2 接收共享的闪卡
 
@@ -397,9 +397,9 @@ StudyCards 使您能够轻松地与他人分享闪卡。
 2. 在 **外观** 部分，选择三个选项之一。
 3. 更改将立即生效。
 
-![外观设置](screenshots/ios/appearance.png)
+<img src="screenshots/ios/appearance.png" alt="外观设置" width="500">
 
-![外观设置 - macOS](screenshots/macos/appearance.png)
+<img src="screenshots/macos/appearance.png" alt="外观设置 - macOS" width="500">
 
 ### 7.2 语言
 
@@ -423,9 +423,9 @@ StudyCards 提供 8 种语言。您可以强制使用特定语言或使用系统
 2. 在 **语言** 部分，选择所需的语言。
 3. 更改将立即生效，无需重启。
 
-![语言设置](screenshots/ios/language.png)
+<img src="screenshots/ios/language.png" alt="语言设置" width="500">
 
-![语言设置 - macOS](screenshots/macos/language.png)
+<img src="screenshots/macos/language.png" alt="语言设置 - macOS" width="500">
 
 ### 7.3 学习顺序
 
@@ -442,9 +442,9 @@ StudyCards 提供 8 种语言。您可以强制使用特定语言或使用系统
 2. 在 **学习顺序** 部分，选择您的偏好。
 3. 更改将应用于所有未来的学习会话。
 
-![学习顺序设置](screenshots/ios/study_order.png)
+<img src="screenshots/ios/study_order.png" alt="学习顺序设置" width="500">
 
-![学习顺序设置 - macOS](screenshots/macos/study_order.png)
+<img src="screenshots/macos/study_order.png" alt="学习顺序设置 - macOS" width="500">
 
 ---
 

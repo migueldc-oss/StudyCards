@@ -22,8 +22,8 @@
 
 Bem-vindo ao **StudyCards** — uma aplicação de flashcards poderosa e elegante para iOS e macOS. Crie, gere e estude os seus flashcards com suporte a fórmulas LaTeX, imagens e capacidades de importação/exportação transparentes.
 
-![StudyCards — iOS](screenshots/ios/main.png)
-![StudyCards — macOS](screenshots/macos/main.png)
+<img src="screenshots/ios/main.png" alt="StudyCards — iOS" width="500">
+<img src="screenshots/macos/main.png" alt="StudyCards — macOS" width="500">
 
 **Funcionalidades principais:**
 
@@ -59,9 +59,9 @@ Os grupos ajudam-no a organizar os seus flashcards por tema, disciplina ou categ
 4. Opcionalmente, adicione uma descrição para identificar o conteúdo do grupo.
 5. Toque em **Guardar** para confirmar.
 
-![Criar grupo](screenshots/ios/create_group.png)
+<img src="screenshots/ios/create_group.png" alt="Criar grupo" width="500">
 
-![Criar grupo - macOS](screenshots/macos/create_group.png)
+<img src="screenshots/macos/create_group.png" alt="Criar grupo - macOS" width="500">
 
 **Dicas para organizar grupos:**
 
@@ -100,9 +100,9 @@ Depois de entrar num grupo, pode começar a adicionar flashcards.
 6. Opcionalmente, adicione uma **fórmula LaTeX** utilizando `$...$` (em linha) ou `$$...$$` (bloco).
 7. Toque em **Guardar**.
 
-![Criar flashcard](screenshots/ios/create_card.png)
+<img src="screenshots/ios/create_card.png" alt="Criar flashcard" width="500">
 
-![Criar flashcard - macOS](screenshots/macos/create_card.png)
+<img src="screenshots/macos/create_card.png" alt="Criar flashcard - macOS" width="500">
 
 ### 2.4 Adicionar fórmulas LaTeX
 
@@ -131,9 +131,9 @@ Pode associar imagens aos seus flashcards para aprendizagem visual.
 2. Escolha tirar uma nova fotografia ou selecionar da sua biblioteca.
 3. A imagem será associada ao flashcard.
 
-![Adicionar imagem](screenshots/ios/add_image.png)
+<img src="screenshots/ios/add_image.png" alt="Adicionar imagem" width="500">
 
-![Adicionar imagem - macOS](screenshots/macos/add_image.png)
+<img src="screenshots/macos/add_image.png" alt="Adicionar imagem - macOS" width="500">
 
 > **Nota:** As imagens são automaticamente redimensionadas para um máximo de 1024 pixels para otimizar o armazenamento. Ao exportar como JSON, as imagens são incluídas em formato base64.
 
@@ -147,9 +147,9 @@ Pode eliminar um flashcard deslizando para a esquerda.
 2. Aparecerá um botão vermelho **Eliminar**.
 3. Toque em **Eliminar** para confirmar.
 
-![Deslizar para eliminar](screenshots/ios/swipe_delete.png)
+<img src="screenshots/ios/swipe_delete.png" alt="Deslizar para eliminar" width="500">
 
-![Deslizar para eliminar - macOS](screenshots/macos/swipe_delete.png)
+<img src="screenshots/macos/swipe_delete.png" alt="Deslizar para eliminar - macOS" width="500">
 
 > **Aviso:** A eliminação é permanente. Certifique-se de que exporta os seus cartões antes de os eliminar se não tiver uma cópia de segurança.
 
@@ -223,9 +223,9 @@ O modo de estudo é o coração do StudyCards. Permite-lhe rever os seus flashca
 2. Encontre e selecione o grupo que pretende estudar.
 3. O primeiro flashcard aparecerá no ecrã.
 
-![Iniciar estudo](screenshots/ios/start_study.png)
+<img src="screenshots/ios/start_study.png" alt="Iniciar estudo" width="500">
 
-![Iniciar estudo - macOS](screenshots/macos/start_study.png)
+<img src="screenshots/macos/start_study.png" alt="Iniciar estudo - macOS" width="500">
 
 ### 4.2 Navegar entre cartões
 
@@ -251,9 +251,9 @@ Durante uma sessão de estudo:
 | **2** | Avaliar como Duvidoso |
 | **3** | Avaliar como Não sabia |
 
-![Modo de estudo](screenshots/ios/study_session.png)
+<img src="screenshots/ios/study_session.png" alt="Modo de estudo" width="500">
 
-![Modo de estudo - macOS](screenshots/macos/study_session.png)
+<img src="screenshots/macos/study_session.png" alt="Modo de estudo - macOS" width="500">
 
 ### 4.3 Terminar uma sessão de estudo
 
@@ -263,9 +263,9 @@ Quando tiver revisto todos os cartões do grupo:
 2. Verá quantos cartões avaliou como *Fácil*, *Duvidoso* e *Não sabia*.
 3. Toque em **Estudar Novamente** para repetir ou **Voltar aos Grupos** para sair.
 
-![Resumo de estudo](screenshots/ios/study_summary.png)
+<img src="screenshots/ios/study_summary.png" alt="Resumo de estudo" width="500">
 
-![Resumo de estudo - macOS](screenshots/macos/study_summary.png)
+<img src="screenshots/macos/study_summary.png" alt="Resumo de estudo - macOS" width="500">
 
 ---
 
@@ -284,9 +284,9 @@ O StudyCards permite-lhe transferir flashcards entre dispositivos ou criar cópi
    - **JSON:** Formato completo. Inclui texto, fórmulas LaTeX e imagens base64.
 4. Escolha onde guardar o ficheiro (Ficheiros, iCloud Drive, etc.).
 
-![Exportar](screenshots/ios/export.png)
+<img src="screenshots/ios/export.png" alt="Exportar" width="500">
 
-![Exportar - macOS](screenshots/macos/export.png)
+<img src="screenshots/macos/export.png" alt="Exportar - macOS" width="500">
 
 ### 5.2 Estrutura do ficheiro JSON
 
@@ -330,9 +330,9 @@ front,back,frontLatex,backLatex,difficulty,frontImage,backImage
 2. Selecione um ficheiro CSV ou JSON do seu dispositivo.
 3. O StudyCards importará os flashcards para o grupo atual.
 
-![Importar](screenshots/ios/import.png)
+<img src="screenshots/ios/import.png" alt="Importar" width="500">
 
-![Importar - macOS](screenshots/macos/import.png)
+<img src="screenshots/macos/import.png" alt="Importar - macOS" width="500">
 
 > **Nota:** Se importar um ficheiro JSON com imagens base64, as imagens serão apresentadas corretamente nos flashcards.
 
@@ -363,9 +363,9 @@ O StudyCards facilita a partilha de flashcards com outros utilizadores.
    - **Mensagens** — envie por iMessage.
    - **Outras aplicações** — qualquer aplicação que aceite anexos de ficheiros.
 
-![Partilhar](screenshots/ios/share.png)
+<img src="screenshots/ios/share.png" alt="Partilhar" width="500">
 
-![Partilhar - macOS](screenshots/macos/share.png)
+<img src="screenshots/macos/share.png" alt="Partilhar - macOS" width="500">
 
 ### 6.2 Receber flashcards partilhados
 
@@ -397,9 +397,9 @@ Controle o tema visual da aplicação.
 2. Na secção **Aparência**, selecione uma das três opções.
 3. A alteração é aplicada imediatamente.
 
-![Definições de aparência](screenshots/ios/appearance.png)
+<img src="screenshots/ios/appearance.png" alt="Definições de aparência" width="500">
 
-![Definições de aparência - macOS](screenshots/macos/appearance.png)
+<img src="screenshots/macos/appearance.png" alt="Definições de aparência - macOS" width="500">
 
 ### 7.2 Idioma
 
@@ -423,9 +423,9 @@ O StudyCards está disponível em 8 idiomas. Pode forçar um idioma específico 
 2. Na secção **Idioma**, selecione o idioma desejado.
 3. A alteração é aplicada imediatamente sem reiniciar.
 
-![Definições de idioma](screenshots/ios/language.png)
+<img src="screenshots/ios/language.png" alt="Definições de idioma" width="500">
 
-![Definições de idioma - macOS](screenshots/macos/language.png)
+<img src="screenshots/macos/language.png" alt="Definições de idioma - macOS" width="500">
 
 ### 7.3 Ordem de estudo
 
@@ -442,9 +442,9 @@ Defina a ordem padrão em que os flashcards são apresentados durante o modo de 
 2. Na secção **Ordem de estudo**, selecione a sua preferência.
 3. A alteração aplicar-se-á a todas as sessões de estudo futuras.
 
-![Definições de ordem de estudo](screenshots/ios/study_order.png)
+<img src="screenshots/ios/study_order.png" alt="Definições de ordem de estudo" width="500">
 
-![Definições de ordem de estudo - macOS](screenshots/macos/study_order.png)
+<img src="screenshots/macos/study_order.png" alt="Definições de ordem de estudo - macOS" width="500">
 
 ---
 

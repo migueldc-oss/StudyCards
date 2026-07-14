@@ -22,8 +22,8 @@
 
 Willkommen bei **StudyCards** — einer leistungsstarken und eleganten Karteikarten-App für iOS und macOS. Erstelle, verwalte und studiere deine Karteikarten mit Unterstützung für LaTeX-Formeln, Bilder und nahtlose Import-/Export-Funktionen.
 
-![StudyCards — iOS](screenshots/ios/main.png)
-![StudyCards — macOS](screenshots/macos/main.png)
+<img src="screenshots/ios/main.png" alt="StudyCards — iOS" width="500">
+<img src="screenshots/macos/main.png" alt="StudyCards — macOS" width="500">
 
 **Hauptfunktionen:**
 
@@ -59,9 +59,9 @@ Gruppen helfen dir, deine Karteikarten nach Thema, Fach oder Kategorie zu organi
 4. Optional: Füge eine Beschreibung hinzu, um den Inhalt der Gruppe zu kennzeichnen.
 5. Tippe auf **Speichern**, um zu bestätigen.
 
-![Gruppe erstellen](screenshots/ios/create_group.png)
+<img src="screenshots/ios/create_group.png" alt="Gruppe erstellen" width="500">
 
-![Gruppe erstellen – macOS](screenshots/macos/create_group.png)
+<img src="screenshots/macos/create_group.png" alt="Gruppe erstellen – macOS" width="500">
 
 **Tipps zur Organisation von Gruppen:**
 
@@ -100,9 +100,9 @@ Sobald du innerhalb einer Gruppe bist, kannst du mit dem Hinzufügen von Karteik
 6. Optional: Füge eine **LaTeX-Formel** hinzu, indem du `$...$` (inline) oder `$$...$$` (Block) verwendest.
 7. Tippe auf **Speichern**.
 
-![Karteikarte erstellen](screenshots/ios/create_card.png)
+<img src="screenshots/ios/create_card.png" alt="Karteikarte erstellen" width="500">
 
-![Karteikarte erstellen – macOS](screenshots/macos/create_card.png)
+<img src="screenshots/macos/create_card.png" alt="Karteikarte erstellen – macOS" width="500">
 
 ### 2.4 LaTeX-Formeln hinzufügen
 
@@ -131,9 +131,9 @@ Du kannst deinen Karteikarten Bilder für visuelles Lernen hinzufügen.
 2. Wähle, ob du ein neues Foto aufnehmen oder ein Foto aus deiner Bibliothek auswählen möchtest.
 3. Das Bild wird der Karteikarte hinzugefügt.
 
-![Bild hinzufügen](screenshots/ios/add_image.png)
+<img src="screenshots/ios/add_image.png" alt="Bild hinzufügen" width="500">
 
-![Bild hinzufügen – macOS](screenshots/macos/add_image.png)
+<img src="screenshots/macos/add_image.png" alt="Bild hinzufügen – macOS" width="500">
 
 > **Hinweis:** Bilder werden automatisch auf eine maximale Größe von 1024 Pixel reduziert, um den Speicher zu optimieren. Beim Exportieren als JSON werden Bilder im base64-Format eingebettet.
 
@@ -147,9 +147,9 @@ Du kannst eine Karteikarte löschen, indem du sie nach links wischt.
 2. Es erscheint eine rote Schaltfläche **Löschen**.
 3. Tippe auf **Löschen**, um zu bestätigen.
 
-![Wischen zum Löschen](screenshots/ios/swipe_delete.png)
+<img src="screenshots/ios/swipe_delete.png" alt="Wischen zum Löschen" width="500">
 
-![Wischen zum Löschen – macOS](screenshots/macos/swipe_delete.png)
+<img src="screenshots/macos/swipe_delete.png" alt="Wischen zum Löschen – macOS" width="500">
 
 > **Warnung:** Das Löschen ist dauerhaft. Stelle sicher, dass du deine Karten vor dem Löschen exportierst, falls du kein Backup hast.
 
@@ -223,9 +223,9 @@ Der Studienmodus ist das Herzstück von StudyCards. Er ermöglicht es dir, deine
 2. Suche und wähle die Gruppe aus, die du studieren möchtest.
 3. Die erste Karteikarte wird auf dem Bildschirm angezeigt.
 
-![Studie starten](screenshots/ios/start_study.png)
+<img src="screenshots/ios/start_study.png" alt="Studie starten" width="500">
 
-![Studie starten – macOS](screenshots/macos/start_study.png)
+<img src="screenshots/macos/start_study.png" alt="Studie starten – macOS" width="500">
 
 ### 4.2 Zwischen Karten navigieren
 
@@ -251,9 +251,9 @@ Während einer Studiensitzung:
 | **2** | Als Gewusst bewerten |
 | **3** | Als Nicht gewusst bewerten |
 
-![Studienmodus](screenshots/ios/study_session.png)
+<img src="screenshots/ios/study_session.png" alt="Studienmodus" width="500">
 
-![Studienmodus – macOS](screenshots/macos/study_session.png)
+<img src="screenshots/macos/study_session.png" alt="Studienmodus – macOS" width="500">
 
 ### 4.3 Eine Studiensitzung abschließen
 
@@ -263,9 +263,9 @@ Wenn du alle Karten der Gruppe überprüft hast:
 2. Du siehst, wie viele Karten du als *Leicht*, *Gewusst* und *Nicht gewusst* bewertet hast.
 3. Tippe auf **Erneut studieren**, um zu wiederholen, oder auf **Zurück zu den Gruppen**, um zu beenden.
 
-![Studienzusammenfassung](screenshots/ios/study_summary.png)
+<img src="screenshots/ios/study_summary.png" alt="Studienzusammenfassung" width="500">
 
-![Studienzusammenfassung – macOS](screenshots/macos/study_summary.png)
+<img src="screenshots/macos/study_summary.png" alt="Studienzusammenfassung – macOS" width="500">
 
 ---
 
@@ -284,9 +284,9 @@ StudyCards ermöglicht es dir, Karteikarten zwischen Geräten zu übertragen ode
    - **JSON:** Vollständiges Format. Enthält Text, LaTeX-Formeln und base64-Bilder.
 4. Wähle, wo die Datei gespeichert werden soll (Dateien, iCloud Drive usw.).
 
-![Exportieren](screenshots/ios/export.png)
+<img src="screenshots/ios/export.png" alt="Exportieren" width="500">
 
-![Exportieren – macOS](screenshots/macos/export.png)
+<img src="screenshots/macos/export.png" alt="Exportieren – macOS" width="500">
 
 ### 5.2 JSON-Dateistruktur
 
@@ -330,9 +330,9 @@ front,back,frontLatex,backLatex,difficulty,frontImage,backImage
 2. Wähle eine CSV- oder JSON-Datei von deinem Gerät aus.
 3. StudyCards importiert die Karteikarten in die aktuelle Gruppe.
 
-![Importieren](screenshots/ios/import.png)
+<img src="screenshots/ios/import.png" alt="Importieren" width="500">
 
-![Importieren – macOS](screenshots/macos/import.png)
+<img src="screenshots/macos/import.png" alt="Importieren – macOS" width="500">
 
 > **Hinweis:** Wenn du eine JSON-Datei mit base64-Bildern importierst, werden die Bilder in den Karteikarten korrekt angezeigt.
 
@@ -363,9 +363,9 @@ StudyCards macht es einfach, deine Karteikarten mit anderen zu teilen.
    - **Nachrichten** — Sende per iMessage.
    - **Andere Apps** — Jede App, die Dateianhänge akzeptiert.
 
-![Teilen](screenshots/ios/share.png)
+<img src="screenshots/ios/share.png" alt="Teilen" width="500">
 
-![Teilen – macOS](screenshots/macos/share.png)
+<img src="screenshots/macos/share.png" alt="Teilen – macOS" width="500">
 
 ### 6.2 Geteilte Karteikarten empfangen
 
@@ -397,9 +397,9 @@ Steuere das visuelle Theme der App.
 2. Wähle im Bereich **Erscheinungsbild** eine der drei Optionen aus.
 3. Die Änderung wird sofort angewendet.
 
-![Erscheinungsbild-Einstellungen](screenshots/ios/appearance.png)
+<img src="screenshots/ios/appearance.png" alt="Erscheinungsbild-Einstellungen" width="500">
 
-![Erscheinungsbild-Einstellungen – macOS](screenshots/macos/appearance.png)
+<img src="screenshots/macos/appearance.png" alt="Erscheinungsbild-Einstellungen – macOS" width="500">
 
 ### 7.2 Sprache
 
@@ -423,9 +423,9 @@ StudyCards ist in 8 Sprachen verfügbar. Du kannst eine bestimmte Sprache erzwin
 2. Wähle im Bereich **Sprache** die gewünschte Sprache aus.
 3. Die Änderung wird sofort ohne Neustart angewendet.
 
-![Sprach-Einstellungen](screenshots/ios/language.png)
+<img src="screenshots/ios/language.png" alt="Sprach-Einstellungen" width="500">
 
-![Sprach-Einstellungen – macOS](screenshots/macos/language.png)
+<img src="screenshots/macos/language.png" alt="Sprach-Einstellungen – macOS" width="500">
 
 ### 7.3 Studienreihenfolge
 
@@ -442,9 +442,9 @@ Lege die Standardreihenfolge fest, in der Karteikarten im Studienmodus angezeigt
 2. Wähle im Bereich **Studienreihenfolge** deine Präferenz aus.
 3. Die Änderung gilt für alle zukünftigen Studiensitzungen.
 
-![Studienreihenfolge-Einstellungen](screenshots/ios/study_order.png)
+<img src="screenshots/ios/study_order.png" alt="Studienreihenfolge-Einstellungen" width="500">
 
-![Studienreihenfolge-Einstellungen – macOS](screenshots/macos/study_order.png)
+<img src="screenshots/macos/study_order.png" alt="Studienreihenfolge-Einstellungen – macOS" width="500">
 
 ---
 

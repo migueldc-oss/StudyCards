@@ -22,8 +22,8 @@
 
 **StudyCards** へようこそ — iOS と Mac 向けの強力でエレガントなフラッシュカードアプリです。LaTeX 数式、画像、シームレスなインポート・エクスポート機能を備えたフラッシュカードの作成、管理、学習が可能です。
 
-![StudyCards — iOS](screenshots/ios/main.png)
-![StudyCards — macOS](screenshots/macos/main.png)
+<img src="screenshots/ios/main.png" alt="StudyCards — iOS" width="500">
+<img src="screenshots/macos/main.png" alt="StudyCards — macOS" width="500">
 
 **主な機能:**
 
@@ -59,9 +59,9 @@
 4. オプションで、グループの内容を識別するための説明を追加します。
 5. **保存** をタップして確認します。
 
-![グループ作成](screenshots/ios/create_group.png)
+<img src="screenshots/ios/create_group.png" alt="グループ作成" width="500">
 
-![グループ作成 - macOS](screenshots/macos/create_group.png)
+<img src="screenshots/macos/create_group.png" alt="グループ作成 - macOS" width="500">
 
 **グループの整理のコツ:**
 
@@ -100,9 +100,9 @@
 6. オプションで、`$...$`（インライン）または `$$...$$`（ブロック）を使用して **LaTeX 数式** を追加します。
 7. **保存** をタップします。
 
-![フラッシュカード作成](screenshots/ios/create_card.png)
+<img src="screenshots/ios/create_card.png" alt="フラッシュカード作成" width="500">
 
-![フラッシュカード作成 - macOS](screenshots/macos/create_card.png)
+<img src="screenshots/macos/create_card.png" alt="フラッシュカード作成 - macOS" width="500">
 
 ### 2.4 LaTeX 数式の追加
 
@@ -131,9 +131,9 @@ StudyCards は MathJax を使用した LaTeX レンダリングをサポート�
 2. 新しい写真を撮るか、ライブラリから選択します。
 3. 画像がフラッシュカードに添付されます。
 
-![画像追加](screenshots/ios/add_image.png)
+<img src="screenshots/ios/add_image.png" alt="画像追加" width="500">
 
-![画像追加 - macOS](screenshots/macos/add_image.png)
+<img src="screenshots/macos/add_image.png" alt="画像追加 - macOS" width="500">
 
 > **注意:** 画像はストレージを最適化するために、最大 1024 ピクセルに自動リサイズされます。JSON でエクスポートする際、画像は Base64 形式で含まれます。
 
@@ -147,9 +147,9 @@ StudyCards は MathJax を使用した LaTeX レンダリングをサポート�
 2. 赤い **削除** ボタンが表示されます。
 3. **削除** をタップして確認します。
 
-![スワイプで削除](screenshots/ios/swipe_delete.png)
+<img src="screenshots/ios/swipe_delete.png" alt="スワイプで削除" width="500">
 
-![スワイプで削除 - macOS](screenshots/macos/swipe_delete.png)
+<img src="screenshots/macos/swipe_delete.png" alt="スワイプで削除 - macOS" width="500">
 
 > **警告:** 削除は取り消せません。バックアップがない場合は、削除前にカードをエクスポートしてください。
 
@@ -223,9 +223,9 @@ StudyCards は MathJax を使用した LaTeX レンダリングをサポート�
 2. 学習したいグループを検索して選択します。
 3. 最初のフラッシュカードが画面に表示されます。
 
-![学習開始](screenshots/ios/start_study.png)
+<img src="screenshots/ios/start_study.png" alt="学習開始" width="500">
 
-![学習開始 - macOS](screenshots/macos/start_study.png)
+<img src="screenshots/macos/start_study.png" alt="学習開始 - macOS" width="500">
 
 ### 4.2 カード間のナビゲーション
 
@@ -251,9 +251,9 @@ StudyCards は MathJax を使用した LaTeX レンダリングをサポート�
 | **2** | 迷ったと評価 |
 | **3** | 分からなかったと評価 |
 
-![学習モード](screenshots/ios/study_session.png)
+<img src="screenshots/ios/study_session.png" alt="学習モード" width="500">
 
-![学習モード - macOS](screenshots/macos/study_session.png)
+<img src="screenshots/macos/study_session.png" alt="学習モード - macOS" width="500">
 
 ### 4.3 学習セッションの完了
 
@@ -263,9 +263,9 @@ StudyCards は MathJax を使用した LaTeX レンダリングをサポート�
 2. *簡単*、*迷った*、*分からなかった* の各評価数が表示されます。
 3. **もう一度学習** をタップして繰り返すか、**グループに戻る** で終了します。
 
-![学習結果](screenshots/ios/study_summary.png)
+<img src="screenshots/ios/study_summary.png" alt="学習結果" width="500">
 
-![学習結果 - macOS](screenshots/macos/study_summary.png)
+<img src="screenshots/macos/study_summary.png" alt="学習結果 - macOS" width="500">
 
 ---
 
@@ -284,9 +284,9 @@ StudyCards では、CSV と JSON ファイルを使用してデバイス間で�
    - **JSON:** 完全な形式。テキスト、LaTeX 数式、Base64 エンコードされた画像を含みます。
 4. ファイルの保存先を選択します（ファイル、iCloud Drive など）。
 
-![エクスポート](screenshots/ios/export.png)
+<img src="screenshots/ios/export.png" alt="エクスポート" width="500">
 
-![エクスポート - macOS](screenshots/macos/export.png)
+<img src="screenshots/macos/export.png" alt="エクスポート - macOS" width="500">
 
 ### 5.2 JSON ファイルの構造
 
@@ -330,9 +330,9 @@ front,back,frontLatex,backLatex,difficulty,frontImage,backImage
 2. デバイスから CSV または JSON ファイルを選択します。
 3. StudyCards がフラッシュカードを現在のグループにインポートします。
 
-![インポート](screenshots/ios/import.png)
+<img src="screenshots/ios/import.png" alt="インポート" width="500">
 
-![インポート - macOS](screenshots/macos/import.png)
+<img src="screenshots/macos/import.png" alt="インポート - macOS" width="500">
 
 > **注意:** Base64 画像を含む JSON ファイルをインポートすると、画像はフラッシュカードに正しく表示されます。
 
@@ -363,9 +363,9 @@ StudyCards では、フラッシュカードを他のユーザーと簡単に共
    - **メッセージ** — iMessage 経由で送信
    - **その他のアプリ** — ファイル添付を受け付けるすべてのアプリ
 
-![共有](screenshots/ios/share.png)
+<img src="screenshots/ios/share.png" alt="共有" width="500">
 
-![共有 - macOS](screenshots/macos/share.png)
+<img src="screenshots/macos/share.png" alt="共有 - macOS" width="500">
 
 ### 6.2 共有されたフラッシュカードの受信
 
@@ -397,9 +397,9 @@ StudyCards をあなたの好みに合わせてカスタマイズしましょう
 2. **外観** セクションで、3 つのオプションから選択します。
 3. 変更は即座に適用されます。
 
-![外観設定](screenshots/ios/appearance.png)
+<img src="screenshots/ios/appearance.png" alt="外観設定" width="500">
 
-![外観設定 - macOS](screenshots/macos/appearance.png)
+<img src="screenshots/macos/appearance.png" alt="外観設定 - macOS" width="500">
 
 ### 7.2 言語
 
@@ -423,9 +423,9 @@ StudyCards は 8 言語で利用できます。特定の言語を強制するか
 2. **言語** セクションで、希望する言語を選択します。
 3. 変更は再起動なしで即座に適用されます。
 
-![言語設定](screenshots/ios/language.png)
+<img src="screenshots/ios/language.png" alt="言語設定" width="500">
 
-![言語設定 - macOS](screenshots/macos/language.png)
+<img src="screenshots/macos/language.png" alt="言語設定 - macOS" width="500">
 
 ### 7.3 学習順序
 
@@ -442,9 +442,9 @@ StudyCards は 8 言語で利用できます。特定の言語を強制するか
 2. **学習順序** セクションで希望する設定を選択します。
 3. 変更は以降のすべての学習セッションに適用されます。
 
-![学習順序設定](screenshots/ios/study_order.png)
+<img src="screenshots/ios/study_order.png" alt="学習順序設定" width="500">
 
-![学習順序設定 - macOS](screenshots/macos/study_order.png)
+<img src="screenshots/macos/study_order.png" alt="学習順序設定 - macOS" width="500">
 
 ---
 
